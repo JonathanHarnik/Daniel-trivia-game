@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Daniel-trivia-game/static/css/main.ea68a5e2.chunk.css",
+    "main.js": "/Daniel-trivia-game/static/js/main.b0f7a3d8.chunk.js",
+    "main.js.map": "/Daniel-trivia-game/static/js/main.b0f7a3d8.chunk.js.map",
+    "runtime-main.js": "/Daniel-trivia-game/static/js/runtime-main.0a4839f0.js",
+    "runtime-main.js.map": "/Daniel-trivia-game/static/js/runtime-main.0a4839f0.js.map",
+    "static/js/2.5fbbebd9.chunk.js": "/Daniel-trivia-game/static/js/2.5fbbebd9.chunk.js",
+    "static/js/2.5fbbebd9.chunk.js.map": "/Daniel-trivia-game/static/js/2.5fbbebd9.chunk.js.map",
+    "index.html": "/Daniel-trivia-game/index.html",
+    "precache-manifest.06f469e712f19727ab175bab2edb1231.js": "/Daniel-trivia-game/precache-manifest.06f469e712f19727ab175bab2edb1231.js",
+    "service-worker.js": "/Daniel-trivia-game/service-worker.js",
+    "static/css/main.ea68a5e2.chunk.css.map": "/Daniel-trivia-game/static/css/main.ea68a5e2.chunk.css.map",
+    "static/js/2.5fbbebd9.chunk.js.LICENSE.txt": "/Daniel-trivia-game/static/js/2.5fbbebd9.chunk.js.LICENSE.txt",
+    "static/media/Crown.jpeg": "/Daniel-trivia-game/static/media/Crown.db601dee.jpeg",
+    "static/media/bear.jpeg": "/Daniel-trivia-game/static/media/bear.81d0f922.jpeg",
+    "static/media/daniel1.jpg": "/Daniel-trivia-game/static/media/daniel1.91c665a6.jpg",
+    "static/media/daniel_laugh.jpg": "/Daniel-trivia-game/static/media/daniel_laugh.c8c62d2b.jpg",
+    "static/media/daniel_sexy.jpg": "/Daniel-trivia-game/static/media/daniel_sexy.c3d50a04.jpg",
+    "static/media/us.jpeg": "/Daniel-trivia-game/static/media/us.58c8b87f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a4839f0.js",
+    "static/js/2.5fbbebd9.chunk.js",
+    "static/css/main.ea68a5e2.chunk.css",
+    "static/js/main.b0f7a3d8.chunk.js"
+  ]
+}
