@@ -1,0 +1,97 @@
+/* body{
+    background: rgb(212, 89, 40);
+} */
+
+.gallery-container {
+  width: 60%;
+  height: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10px 0;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+  height: 100%;
+}
+
+#pic1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+#pic2 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+#pic3 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+#pic4 {
+  grid-column: 5/6;
+  grid-row: 1/3;
+}
+#pic5 {
+  grid-column: 3/5;
+  grid-row: 2/3;
+}
+#pic6 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+#pic7 {
+  grid-column: 2/4;
+  grid-row: 3/5;
+}
+#pic8 {
+  grid-column: 1/2;
+  grid-row: 4/6;
+}
+#pic9 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+#pic10 {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+#pic11 {
+  grid-column: 4/6;
+  grid-row: 3/6;
+}
+.photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid rgb(57, 57, 57);
+  border-radius: 3px;
+  /* animation: photo 1s ease-in; */
+}
+
+@keyframes photo {
+  from {
+    align-self: center;
+    justify-self: center;
+    height: 10%;
+    width: 10%;
+  }
+  to {
+    align-self: center;
+    justify-self: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.photo:hover {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: auto;
+}
