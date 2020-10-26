@@ -4,7 +4,7 @@ import HomePage from "./components/HomePage.jsx";
 import About from "./components/About.jsx";
 import Play from "./components/Play.jsx";
 import Gallery from "./components/Gallery.jsx";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default class App extends Component {
   constructor(props) {
